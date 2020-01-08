@@ -2,8 +2,8 @@
 var data = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson'
     // var plates = 'C:/Users/cheikh_Moctar/Documents/UCF_Bootcamp/tectonicplatesGeoJSON/PB2002_plates.json'
     // function to change marker size
-function markerSize(population) {
-    return population * 8;
+function markerSize(x) {
+    return x * 8;
 }
 
 // Adding light map tile layer

@@ -2,8 +2,8 @@
 var data = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson'
 
 // function to change marker size
-function markerSize(population) {
-    return population * 8;
+function markerSize(x) {
+    return x * 8;
 }
 
 // Adding tile layer
