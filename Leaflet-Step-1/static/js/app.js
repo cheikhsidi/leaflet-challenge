@@ -1,9 +1,9 @@
 // Load in geojson data
-var data = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson'
+var data = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson'
 
 // function to change marker size
 function markerSize(population) {
-    return population * 6;
+    return population * 8;
 }
 
 // Adding tile layer
