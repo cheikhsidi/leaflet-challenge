@@ -30,3 +30,21 @@
         margin-right: 8px;
         opacity: 0.7;
     }
+    
+    .leaflet-control-container {
+        display: block;
+    }
+    
+    .leaflet-control-zoom {
+        left: 5px;
+        top: 10px;
+    }
+    
+    .leaflet-control-layers {
+        left: 5px;
+        top: 10px;
+    }
+    
+    .leaflet-touch .leaflet-control-attribution {
+        display: none;
+    }

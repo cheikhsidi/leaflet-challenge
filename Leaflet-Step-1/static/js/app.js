@@ -53,7 +53,7 @@ d3.json(data, function(d) {
     // Looping through the dataset and creating circles
     features.forEach(feature => {
         var LatLong = feature.geometry.coordinates.slice(0, 2).reverse();
-        L.circleMarker(LatLong, style(feature)).bindPopup("<h1>" + feature.properties.mag + "</h1> <hr> <h3>Time: </h3>").addTo(myMap);
+        L.circleMarker(LatLong, style(feature)).bindPopup("<h1> Magnitude :" + feature.properties.mag + "</h1> <hr> <h3> Place:" + feature.properties.place + "</h3>").addTo(myMap);
     });
 });
 
