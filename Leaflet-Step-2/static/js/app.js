@@ -3,7 +3,7 @@ var data = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.ge
     // var plates = 'C:/Users/cheikh_Moctar/Documents/UCF_Bootcamp/tectonicplatesGeoJSON/PB2002_plates.json'
     // function to change marker size
 function markerSize(population) {
-    return population * 6;
+    return population * 7;
 }
 
 // Adding light map tile layer
@@ -83,7 +83,7 @@ function style(feature) {
 }
 
 // Adding the Plates Layer
-d3.json('Leaflet-Step-2/plates.json', function(plates) {
+d3.json('plates.json', function(plates) {
     var FaultLine = L.geoJson(plates).setStyle({ fillColor: 'None', color: 'blue' });
     FaultLine.addTo(layers.FaultLines)
 });
